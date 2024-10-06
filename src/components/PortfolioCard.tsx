@@ -3,6 +3,7 @@ interface PortfolioCardProps {
   title: string;
   imgUrl: string;
   url: string;
+  type: string[];
 }
 
 const PortfolioCard: React.FC<PortfolioCardProps> = ({
@@ -10,6 +11,7 @@ const PortfolioCard: React.FC<PortfolioCardProps> = ({
   title,
   imgUrl,
   url,
+  type,
 }) => {
   return (
     <div
@@ -17,7 +19,6 @@ const PortfolioCard: React.FC<PortfolioCardProps> = ({
         p-4
         rounded-xl
         shadow-md
-        cursor-pointer
         group
         ${darkMode ? "bg-neutral-800" : "bg-neutral-100"}
         ${darkMode ? "text-neutral-100" : "text-neutral-900"}
@@ -34,14 +35,39 @@ const PortfolioCard: React.FC<PortfolioCardProps> = ({
           src={imgUrl}
           alt={title}
           className="
-            object-cover
+            object-contain
             w-full
             h-full
             rounded-xl
             group-hover:scale-110
-            transition
+            duration-300
           "
         />
+      </div>
+      <div
+        className="
+          pt-4
+          grid
+          grid-cols-3
+          gap-3
+        "
+      >
+        {type.map((item, index) => (
+          <span
+            key={index}
+            className={`
+              ${darkMode ? "bg-neutral-900/70" : "bg-neutral-200"}
+              text-center
+              rounded-md
+              text-sm
+              font-semibold
+              p-1
+              h-fit
+            `}
+          >
+            # {item.toUpperCase()}
+          </span>
+        ))}
       </div>
       <div
         className="

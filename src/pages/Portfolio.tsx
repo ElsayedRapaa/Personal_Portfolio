@@ -45,6 +45,7 @@ const Portfolio: React.FC<PortfolioProps> = ({ darkMode }) => {
               title={item.title}
               imgUrl={item.imgUrl}
               url={item.url}
+              type={item.type}
             />
           ))}
         </div>

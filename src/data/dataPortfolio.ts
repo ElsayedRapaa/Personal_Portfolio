@@ -1,11 +1,25 @@
 export const dataPortfolio = [
   {
+    id: 15,
+    title: "MasterCoin",
+    imgUrl: "/public/mastercoin.png",
+    url: "https://mastercoin.vercel.app/",
+    type: ["Next.js", "Taillwind CSS", "Next-Auth", "MongoDB"],
+  },
+  {
+    id: 13,
+    title: "Team Portfolio",
+    imgUrl: "/public/portfolion01.png",
+    url: "https://silly-gnome-acb1d6.netlify.app/",
+    type: ["React.js", "Taillwind CSS"],
+  },
+  {
     id: 14,
     title: "Dashboard",
     imgUrl:
       "https://firebasestorage.googleapis.com/v0/b/newworld-d569e.appspot.com/o/dashboard.png?alt=media&token=aecf55c7-d76c-4d57-b1a0-c2d32bbd2fac",
     url: "https://dashoboard-test.netlify.app",
-    type: "react",
+    type: ["React.js", "Taillwind CSS"],
   },
   {
     id: 1,
@@ -13,7 +27,7 @@ export const dataPortfolio = [
     imgUrl:
       "https://firebasestorage.googleapis.com/v0/b/newworld-d569e.appspot.com/o/port1.PNG?alt=media&token=1b6a73f6-9230-45cd-97fe-bbfa339cf9ca",
     url: "https://elsayedrapaa.github.io/Personal_Profile2/",
-    type: "javascript",
+    type: ["Html", "Css", "JavaScript"],
   },
 
   {
@@ -22,7 +36,7 @@ export const dataPortfolio = [
     imgUrl:
       "https://firebasestorage.googleapis.com/v0/b/newworld-d569e.appspot.com/o/kasper.PNG?alt=media&token=9328925d-c9fc-4051-bea9-78763617bc0c",
     url: "https://kasper-50e2c.web.app/",
-    type: "html/css",
+    type: ["Html", "Css"],
   },
   {
     id: 3,
@@ -30,7 +44,7 @@ export const dataPortfolio = [
     imgUrl:
       "https://firebasestorage.googleapis.com/v0/b/newworld-d569e.appspot.com/o/cruds.PNG?alt=media&token=06de9b06-0cda-4da7-aa3d-ea92e4ab7b48",
     url: "https://elsayedrapaa.github.io/CRUDS_Management/",
-    type: "javascript",
+    type: ["Html", "Css", "JavaScript"],
   },
   {
     id: 4,
@@ -38,7 +52,7 @@ export const dataPortfolio = [
     imgUrl:
       "https://firebasestorage.googleapis.com/v0/b/newworld-d569e.appspot.com/o/port2.PNG?alt=media&token=8686deaa-1060-4e54-b887-9e910e684d84",
     url: "https://elsayedrapaa.github.io/Template_Special_2/",
-    type: "javascript",
+    type: ["Html", "Css", "JavaScript"],
   },
   {
     id: 5,
@@ -46,7 +60,7 @@ export const dataPortfolio = [
     imgUrl:
       "https://firebasestorage.googleapis.com/v0/b/newworld-d569e.appspot.com/o/port6.PNG?alt=media&token=7547d1ae-22b1-4899-ba94-6b872ad81d37",
     url: "https://elsayedrapaa.github.io/Landing_Page/",
-    type: "jquery",
+    type: ["Html", "Css", "JavaScript", "jQuery"],
   },
   {
     id: 6,
@@ -54,7 +68,7 @@ export const dataPortfolio = [
     imgUrl:
       "https://firebasestorage.googleapis.com/v0/b/newworld-d569e.appspot.com/o/quiz.PNG?alt=media&token=cf355105-dd6f-48b5-a0b7-0e321a514d63",
     url: "https://elsayedrapaa.github.io/QuizecalGame_React.js/",
-    type: "react",
+    type: ["React.js", "API's", "Redux"],
   },
   {
     id: 7,
@@ -62,7 +76,7 @@ export const dataPortfolio = [
     imgUrl:
       "https://firebasestorage.googleapis.com/v0/b/newworld-d569e.appspot.com/o/weather.PNG?alt=media&token=d9358213-49ff-4709-9023-93079ac49f08",
     url: "https://elsayedrapaa.github.io/Build_Weather_App/",
-    type: "react",
+    type: ["React.js", "API's"],
   },
   {
     id: 8,
@@ -70,7 +84,7 @@ export const dataPortfolio = [
     imgUrl:
       "https://firebasestorage.googleapis.com/v0/b/newworld-d569e.appspot.com/o/phonestore.PNG?alt=media&token=aba10503-ccea-46ae-a24d-9c6a9186dd50",
     url: "https://elsayedrapaa.github.io/Phone_Store_React.js/",
-    type: "react",
+    type: ["React.js", "Redux", "Axios", "API's"],
   },
   {
     id: 9,
@@ -78,7 +92,7 @@ export const dataPortfolio = [
     imgUrl:
       "https://firebasestorage.googleapis.com/v0/b/newworld-d569e.appspot.com/o/newworld.PNG?alt=media&token=10af2180-cf3c-46ce-8b49-f4f17203292e",
     url: "https://world-magazine-c26b8.web.app/",
-    type: "react",
+    type: ["React.js", "Firebase", "Full-Stack"],
   },
   {
     id: 10,
@@ -86,7 +100,7 @@ export const dataPortfolio = [
     imgUrl:
       "https://firebasestorage.googleapis.com/v0/b/newworld-d569e.appspot.com/o/netflex.PNG?alt=media&token=db923945-9e14-43a1-b9f7-a2b5f1fe1453",
     url: "https://netflix-clone-1291b.web.app/",
-    type: "react",
+    type: ["React.js", "API's"],
   },
   {
     id: 11,
@@ -94,7 +108,7 @@ export const dataPortfolio = [
     imgUrl:
       "https://firebasestorage.googleapis.com/v0/b/newworld-d569e.appspot.com/o/port3.PNG?alt=media&token=5e7f7df2-683c-47d6-bc77-6d7df77ee014",
     url: "https://elsayedrapaa.github.io/Personal_Portfolio_React.js/",
-    type: "react",
+    type: ["React.js"],
   },
   {
     id: 12,
@@ -102,6 +116,6 @@ export const dataPortfolio = [
     imgUrl:
       "https://firebasestorage.googleapis.com/v0/b/newworld-d569e.appspot.com/o/port4.PNG?alt=media&token=2f0e3ec7-9d1e-4c8a-a6cf-35a8fcba95e6",
     url: "https://elsayedrapaa.github.io/Special_Template/",
-    type: "javascript",
+    type: ["Html", "Css", "JavaScript"],
   },
 ];
