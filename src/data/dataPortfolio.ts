@@ -2,14 +2,14 @@ export const dataPortfolio = [
   {
     id: 15,
     title: "MasterCoin",
-    imgUrl: "/public/mastercoin.png",
+    imgUrl: "/mastercoin.png",
     url: "https://mastercoin.vercel.app/",
     type: ["Next.js", "Taillwind CSS", "Next-Auth", "MongoDB"],
   },
   {
     id: 13,
     title: "Team Portfolio",
-    imgUrl: "/public/portfolion01.png",
+    imgUrl: "/portfolion01.png",
     url: "https://silly-gnome-acb1d6.netlify.app/",
     type: ["React.js", "Taillwind CSS"],
   },
